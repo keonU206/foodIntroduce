@@ -1,0 +1,32 @@
+.food-recommendation-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.food-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.food-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.food-info img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.food-info p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h2 {
+  margin-top: 100px;
+}

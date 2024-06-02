@@ -1,0 +1,34 @@
+/* 부모 컨테이너가 전체 페이지 중앙에 위치하도록 설정 */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 화면 높이의 100% */
+  text-align: center; /* 중앙 정렬 */
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.directions {
+  max-width: 300px;
+}
+
+.map {
+  width: 500px;
+  height: 400px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
